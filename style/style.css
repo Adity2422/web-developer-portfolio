@@ -7,6 +7,14 @@ body {
 
 
 /*nav Styles*/
+
+.logo-color{
+color: #FD6E0A;
+}
+
+.dark-2{
+  color: #474747;
+}
 nav {
   display: flex;
 }
@@ -14,4 +22,14 @@ nav {
 .nav-title{
   font-weight: 800px;
   font-size: 30px;
+}
+
+nav ul li{
+  list-style: none;
+}
+
+nav ul li a{
+  text-decoration: none;
+  font size: 20px
+  color:#474747 ;
 }
