@@ -5,16 +5,20 @@ body {
 
 }
 
-.dark-1{
+.dark-1 {
   color: #181818;
 }
 
-.dark-2{
+.dark-2 {
   color: #474747;
 }
 
+.dark-3 {
+  color: #757575;
+}
+
 /*nav Styles*/
-.btn-primary{
+.btn-primary {
   padding: 16px 16px;
   background-color: #FD6E0A;
   border: none;
@@ -24,7 +28,7 @@ body {
   font-weight: bold;
 }
 
-.header-contant{
+.header-contant {
   background-color: #FFF8F3;
   height: 837px;
   margin-top: 0px;
@@ -34,58 +38,84 @@ body {
   margin-right: 0px;
 }
 
-nav{
+nav {
   display: flex;
   align-items: center;
   margin: 0px 226px;
   justify-content: space-between;
 }
 
-.nav-title{
+.nav-title {
   font-size: 45px;
   font-weight: 800;
   margin-top: 0px;
 }
 
-.text-primary{
+.text-primary {
   color: #FD6E0A;
 }
 
-nav ul{
+nav ul {
   display: flex;
   align-items: center;
   margin-top: 0px;
 }
 
-nav ul li{
-list-style: none;
-margin-right: 51px;
-margin-top: 0px;
+nav ul li {
+  list-style: none;
+  margin-right: 51px;
+  margin-top: 0px;
 
 }
 
-nav ul li a{
+nav ul li a {
   text-decoration: none;
 }
 
-.banner{
- justify-content: space-between;
-  margin-left: 252px;
+.banner {
+  justify-content: space-between;
+  margin-left: 226px;
   margin-right: 20px;
   display: flex;
+  height: 837px;
+
+}
+
+.banner-contant {
+  width: 585px;
+  align-items: center;
+ flex-direction: column;
+ justify-content: center;
+ margin-top: 185px;
  
 }
 
-.banner-contant{
-  width: 585px;
-  align-items: center;
-  margin-top: 185px;
-  margin-bottom: 185px;
+.banner-contant .banner-grettings {
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-.banner .banner-profile img{
+.banner-contant .banner-title {
+  font-size: 62px;
+  font-weight: 800;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.banner-description {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.banner .banner-profile img {
   height: 676px;
-  margin-top: 55px; 
+  margin-top: 55px;
 }
 
-
+.hero-button{
+   display: flex;
+  gap: 16px;
+  
