@@ -140,47 +140,49 @@ nav ul li a {
   margin-top: 130px;
   text-align: center;
 }
-.about-item{
+
+.about-item {
   display: flex;
   gap: 40px;
   align-items: center;
   justify-content: space-around;
 }
 
-.item-title{
+.item-title {
   font-size: 14px;
   font-weight: 400;
   color: #757575;
   margin-bottom: 0;
 }
-.item-description{
+
+.item-description {
   font-size: 14px;
   font-weight: bold;
   margin-top: 2px;
 }
 
-.what-i-do{
+.what-i-do {
   max-width: 1140px;
   margin: 0 auto;
   margin-top: 130px;
   margin-bottom: 130px;
 }
 
-.what-i-do-contant{
+.what-i-do-contant {
   text-align: center;
   margin-bottom: 50px;
-  
+
 }
 
-.skills{
+.skills {
   max-width: 1140px;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   gap: 30px;
-  
+
 }
 
-.cart{
+.cart {
   width: 230px;
   height: auto;
   background-color: #ffffff;
@@ -190,18 +192,187 @@ nav ul li a {
   padding-top: 42px;
   padding-bottom: 42px;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-  
+
 }
 
-.skills-title{
+.skills-title {
   font-size: 16px;
   font-weight: bold;
   text-align: left;
 }
 
-.skills-description{
+.skills-description {
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
   text-align: left;
+}
+
+.resume {
+  text-align: center;
+  align-items: center;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.resume-details {
+  display: flex;
+  gap: 80px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.Education-details {
+  text-align: left;
+}
+
+.Education_title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#Master h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+#Master h4 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+
+#Master p {
+  font-size: 12px;
+  font-weight: 200;
+  margin-top: 0px;
+}
+
+#Bsc h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+#Bsc h4 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+
+#Bsc p {
+  font-size: 12px;
+  font-weight: 200;
+  margin-top: 0px;
+}
+
+#Diploma h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+#Diploma h4 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+
+#Diploma p {
+  font-size: 12px;
+  font-weight: 200;
+  margin-top: 0px;
+}
+
+.Experience-details {
+  text-align: left;
+}
+
+.Experience-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#Sr-Developer h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+#Sr-Developer h4 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+
+#Sr-Developer p {
+  font-size: 12px;
+  font-weight: 200;
+  margin-top: 0px;
+}
+
+#jr-Developer h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+#jr-Developer h4 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+
+#jr-Developer p {
+  font-size: 12px;
+  font-weight: 200;
+  margin-top: 0px;
+}
+
+#html-Developer h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+#html-Developer h4 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+
+#html-Developer p {
+  font-size: 12px;
+  font-weight: 200;
+  margin-top: 0px;
+}
+
+.section-button {
+  margin-bottom: 110px;
+}
+
+.footer{
+  background-color: #FFF8F3;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+
+}
+
+.footer-details{
+display: flex;
+  gap: 80px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+
 }
